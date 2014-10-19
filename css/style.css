@@ -1,0 +1,55 @@
+body{ color:#444444;font-family: 'Open Sans', sans-serif; font-size:1.3em}
+*{ margin:0; padding:0;}
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+.list-none{ list-style:none;}
+:focus{ outline:none}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+.fl{ float:left}
+.fr{ float:right}
+.full-width{width:100%} 
+.disp-in{ display:inline}
+.disp-block{ display:block}
+.displ-in-block{ display:inline-block}
+.float-none{ float:none}
+.t-center{ text-align:center}
+.t-left{ text-align:left}
+.t-right{ text-align:right}
+.clear{clear:both}
+a{ text-decoration:none}
+h1{font-size:1.813em}
+p{ font-size:.8em}
+a{ font-size:.8em; line-height:1.800em}
+.bold-text{ font-weight:bold}
+.light-text{font-weight:300}
+.container{ width:1000px; margin:0 auto}
+.top-container{ padding:10px 0;}
+.logo{float:left; width:200px; height:100px}
+.logo img{float:left; max-width:100%}
+.wid-225{ width:225px}
+.nav li{ margin:0 25px 0 0}
+.mar-20px{ margin:20px 0 0 0}
+.listing-detail{ margin:20px 0 0 0; float:left; width:80%}
+input{ border:solid 1px #ccc; padding:10px; background:#fff; border-radius:5px}
+.phonelist{ float:right; width:700px;}
+.phonelist li{ float:left; width:100%;}
+.phonelist li a{ float:left}
+.phonelist li p{ float:left}
+.phonelist li img{ float:left; max-width:200px; height:120px; margin:0 15px 0 0}
+#tabs li{ float:left; padding:5px ; border:solid 1px #ccc; margin:0 10px 0 0; background:#999}
+.tab-container{ border:solid 1px #ccc; margin:30px 0; padding:15px}
+.active {
+    background-color: #FFF !important;
+    color: #000;
+	border-bottom:none !important;
+	padding:5px 5px 10px !important;
+	margin:0 10px -1px 0 !important;
+}
+
+ .css-form input.ng-invalid.ng-dirty {
+    background-color: #FA787E;
+  }
+   .css-form input.ng-valid.ng-dirty {
+    background-color: #78FA89;
+  }
